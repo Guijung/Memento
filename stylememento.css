@@ -1,17 +1,28 @@
 body {
- 
-	background-image: url(file:///C|/Users/Guillaume/Documents/PC/Lamanu%20Site%20projet/Memento/Fondecranmemento.png);
-	background-repeat: no-repeat;
-	background-image: url(/Fondecranmemento.png);
-  background-position:center center;
-  background-attachment:fixed;
-}
+    margin: 0;
+    padding: 0;
+    background-image: url(./Fondecranmemento3.png);
+    background-repeat: no-repeat;
+    background-position:center center;
+ }
+
 h1 {
 	text-align: left;
 	font-size: 300%;
   font-family:Arial Black, Gadget, sans-serif; 
   text-shadow: #FC0 5px 0 5px;
+  margin: 0;
 }
+
+.container {
+    border: 1px solid red;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 #menu-accordeon {
   padding:0;
   margin:0;
@@ -47,7 +58,7 @@ h1 {
 #menu-accordeon a {
   display:block;
   text-decoration: none;
-  color:#ffcc49;
+  color:#211901;
   padding: 8px 0;
   font-family: impact;
   font-size:1.2em
@@ -56,7 +67,7 @@ h1 {
   font-size:1em
 }
 #menu-accordeon li:hover {
-   background: #729EBF
+   background: #faa603;
 }
 #menu-accordeon li li:hover {
    background:#f2eabc;
